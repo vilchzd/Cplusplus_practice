@@ -1,0 +1,28 @@
+# Compiled object files
+*.o
+*.obj
+
+# Executable files
+*.exe
+*.out
+*.app
+*.so
+*.dll
+
+# Debug files
+*.log
+*.tmp
+*.pdb
+
+# Backup and editor files
+*~
+*.swp
+*.swo
+*.DS_Store
+
+# IDE/project files (optional)
+.vscode/
+.idea/
+*.user
+*.vcxproj*
+*.sln
