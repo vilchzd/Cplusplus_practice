@@ -1,7 +1,10 @@
-# Ignore all files with no extension (recursively)
-**/[^.]*
+# Ignore all files
+**/*
 
-# Track source code files
+# Allow all directories
+!*/
+
+# Track source files
 !**/*.cpp
 !**/*.h
 
@@ -19,7 +22,7 @@
 *.tmp
 *.pdb
 
-# Backup and editor files
+# Backup/editor files
 *~
 *.swp
 *.swo
