@@ -1,6 +1,11 @@
-# Ignore all files with no extension except folders and .cpp/.h
-# (keep source code tracked)
-# Ignore executables and object files
+# Ignore all files with no extension
+*.*
+
+# Exceptions: track source code
+!**/*.cpp
+!**/*.h
+
+# Executables and object files
 *.o
 *.obj
 *.exe
@@ -26,7 +31,3 @@
 *.user
 *.vcxproj*
 *.sln
-
-# Keep all .cpp and .h files
-!**/*.cpp
-!**/*.h
