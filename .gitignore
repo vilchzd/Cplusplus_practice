@@ -1,15 +1,15 @@
-# Compiled object files
+# Ignore all files with no extension except folders and .cpp/.h
+# (keep source code tracked)
+# Ignore executables and object files
 *.o
 *.obj
-
-# Executable files
 *.exe
 *.out
 *.app
 *.so
 *.dll
 
-# Debug files
+# Debug/log/temp files
 *.log
 *.tmp
 *.pdb
@@ -20,9 +20,13 @@
 *.swo
 *.DS_Store
 
-# IDE/project files (optional)
+# IDE/project files
 .vscode/
 .idea/
 *.user
 *.vcxproj*
 *.sln
+
+# Keep all .cpp and .h files
+!**/*.cpp
+!**/*.h
