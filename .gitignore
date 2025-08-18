@@ -7,7 +7,7 @@
 # Track source files
 !**/*.cpp
 !**/*.h
-
+!**/*.txt
 # Executables and object files
 *.o
 *.obj
